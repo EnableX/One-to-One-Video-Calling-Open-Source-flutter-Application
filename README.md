@@ -10,37 +10,48 @@ This App creates a virtual Room on the fly hosted on the Enablex platform using 
 
 ### 1.1 Pre-Requisites
 
-### 1.1 Pre-Requisites
+#### 1.1.1 App Id and App Key
 
-#### 1.1.1 App Id and App Key 
-
-* Register with EnableX [https://www.enablex.io] 
-* Login to the EnableX Portal
-* Create your Application Key
-* Get your App ID and App Key delivered to your Email
-
+- Register with EnableX [https://www.enablex.io]
+- Login to the EnableX Portal
+- Create your Application Key
+- Get your App ID and App Key delivered to your Email
 
 #### 1.1.2 Sample Flutter Client
 
 - Clone or download this Repository [https://github.com/EnableX/One-to-One-Video-Call-Webrtc-Application-Sample-for-Flutter.git]
 
-#### 1.1.3 Sample App Server
+#### 1.1.3 Test Application Server
 
-- Clone or download this Repository [https://github.com/EnableX/One-to-One-Video-Chat-Sample-Web-Application.git ] & follow the steps further
-- You need to use App ID and App Key to run this Service.
-- Your Flutter Client End Point needs to connect to this Service to create Virtual Room.
-- Follow README file of this Repository to setup the Service.
+You need to setup an Application Server to provision Web Service API for your Android Application to communicate enabling Video Session.
+
+To help you to try our Android Application quickly, without having to setup Applciation Server, this Application is shipped pre-configured to work in a "try" mode with EnableX hosted Application Server i.e. https://demo.enablex.io.
+
+Our Application Server restricts a single Session Duation to 10 minutes, and allows 1 moderator and note more than 3 Participant in a Session.
+
+Once you tried EnableX Android Sample Application, you may need to setup your own Application Server and verify your Application to work with your Application Server. More on this, read Point 2 later in the Document.
 
 #### 1.1.4 Configure Flutter Client
 
 - Open the App
-- Go to WebConstants and change the following:
+- Go to Main.dart and change the following:
 
 ```
- String kBaseURL = "FQDN"      /* FQDN of of App Server */
-```
+ /* To try the App with Enablex Hosted Service you need to set the kTry = true When you setup your own Application Service, set kTry = false */
 
-Note: The distributable comes with demo username and password for the Service.
+     public  static  final  boolean kTry = true;
+
+ /* Your Web Service Host URL. Keet the defined host when kTry = true */
+
+     String kBaseURL = "https://demo.enablex.io/"
+
+ /* Your Application Credential required to try with EnableX Hosted Service
+     When you setup your own Application Service, remove these */
+
+     String kAppId = ""
+     String kAppkey = ""
+
+```
 
 ### 1.2 Test
 
