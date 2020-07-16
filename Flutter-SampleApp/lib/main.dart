@@ -35,8 +35,15 @@ class _State extends State<MyApp> {
   /* To try the app with Enablex hosted service you need to set the kTry = true */
   static bool kTry = true;
   /*Use enablec portal to create your app and get these following credentials*/
-  static final String kAppId = "App_ID";
-  static final String kAppkey = "App_Key";
+  static final String kAppId = "5ef5b31690ef80b4300b0bd2";
+  static final String kAppkey = "uJehyWaAu4uvyTupeJyJuHu6ygyYaGu2yzuq";
+  var header = (kTry)
+      ? {
+          "x-app-id": kAppId,
+          "x-app-key": kAppkey,
+          "Content-Type": "application/json"
+        }
+      : {"Content-Type": "application/json"};
 
   TextEditingController nameController = TextEditingController();
   TextEditingController roomIdController = TextEditingController();
@@ -114,24 +121,10 @@ class _State extends State<MyApp> {
   }
 
   Future<String> createRoom() async {
-    var response;
-    if (kTry) {
-      response = await http.post(
-          Uri.encodeFull(
-              kBaseURL + "createRoom"), // replace FQDN with Your Server API URL
-          headers: {
-            "Content-Type": "application/json",
-            "x-app-id": kAppId,
-            "x-app-key": kAppkey
-          });
-    } else {
-      response = await http.post(
-          Uri.encodeFull(
-              kBaseURL + "createRoom"), // replace FQDN with Your Server API URL
-          headers: {
-            "Content-Type": "application/json",
-          });
-    }
+    var response = await http.post(
+        Uri.encodeFull(
+            kBaseURL + "createRoom"), // replace FQDN with Your Server API URL
+        headers: header);
     if (response.statusCode == 200) {
       Map<String, dynamic> user = jsonDecode(response.body);
       Map<String, dynamic> room = user['room'];
@@ -152,24 +145,11 @@ class _State extends State<MyApp> {
       "name": nameController.text
     };
     print(jsonEncode(value));
-    var response;
-    if (kTry) {
-      response = await http.post(
-          Uri.encodeFull(kBaseURL +
-              "createToken"), // replace FQDN with Your Server API URL
-          headers: {
-            "Content-Type": "application/json",
-            "x-app-id": kAppId,
-            "x-app-key": kAppkey
-          },
-          body: jsonEncode(value));
-    } else {
-      response = await http.post(
-          Uri.encodeFull(kBaseURL +
-              "createToken"), // replace FQDN with Your Server API URL
-          headers: {"Content-Type": "application/json"},
-          body: jsonEncode(value));
-    }
+    var response = await http.post(
+        Uri.encodeFull(
+            kBaseURL + "createToken"), // replace FQDN with Your Server API URL
+        headers: header,
+        body: jsonEncode(value));
 
     if (response.statusCode == 200) {
       print(response.body);

@@ -1,0 +1,53 @@
+PODS:
+  - enx_flutter_plugin (0.0.1):
+    - EnxRTCiOS (= 1.6.0)
+    - Flutter
+    - Socket.IO-Client-Swift (~> 15.0.0)
+  - EnxRTCiOS (1.6.0):
+    - GoogleWebRTC (= 1.1.29400)
+  - Flutter (1.0.0)
+  - fluttertoast (0.0.2):
+    - Flutter
+  - GoogleWebRTC (1.1.29400)
+  - permission_handler (3.3.0):
+    - Flutter
+  - Socket.IO-Client-Swift (15.0.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+
+DEPENDENCIES:
+  - enx_flutter_plugin (from `.symlinks/plugins/enx_flutter_plugin/ios`)
+  - Flutter (from `Flutter`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+
+SPEC REPOS:
+  trunk:
+    - EnxRTCiOS
+    - GoogleWebRTC
+    - Socket.IO-Client-Swift
+    - Starscream
+
+EXTERNAL SOURCES:
+  enx_flutter_plugin:
+    :path: ".symlinks/plugins/enx_flutter_plugin/ios"
+  Flutter:
+    :path: Flutter
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+
+SPEC CHECKSUMS:
+  enx_flutter_plugin: 5f1174ea7ccff31e2712fabc514d894ba98b539d
+  EnxRTCiOS: 3004e4cd586374ba6b6d6355288de54b75f7d2f6
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  fluttertoast: b644586ef3b16f67fae9a1f8754cef6b2d6b634b
+  GoogleWebRTC: cfb83bc346435a17fe06bb05f04ad826b858a7fb
+  permission_handler: 67637977b227d62d46bfbf524f335f8568de5a73
+  Socket.IO-Client-Swift: c039a808195d22a7192962841b8c035cb61ea49e
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+
+PODFILE CHECKSUM: c15782d93ba65207ae4f18b8c7bd6d3f2bea8bda
+
+COCOAPODS: 1.9.3

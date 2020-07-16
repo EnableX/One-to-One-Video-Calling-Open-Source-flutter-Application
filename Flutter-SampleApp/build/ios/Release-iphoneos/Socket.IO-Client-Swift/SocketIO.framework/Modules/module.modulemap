@@ -1,0 +1,11 @@
+framework module SocketIO {
+  umbrella header "Socket.IO-Client-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SocketIO.Swift {
+    header "SocketIO-Swift.h"
+    requires objc
+}

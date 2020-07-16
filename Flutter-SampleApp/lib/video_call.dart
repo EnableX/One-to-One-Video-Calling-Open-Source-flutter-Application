@@ -81,16 +81,12 @@ class Conference extends State<MyConfApp> {
     };
 
     EnxFlutterPlugin.onActiveTalkerList = (Map<dynamic, dynamic> map) {
-      print('onActiveTalkerList ' + map.toString());
-
       final items = (map['activeList'] as List)
           .map((i) => new ActiveListModel.fromJson(i));
-
       if (items.length > 0) {
         setState(() {
           for (final item in items) {
-            print('onActiveTalkerList item' + item.streamId.toString());
-            remoteView = item.streamId;
+            _remoteUsers.add(int.parse(item.streamId));
             break;
           }
         });
@@ -215,6 +211,29 @@ class Conference extends State<MyConfApp> {
   int remoteView = -1;
   List<dynamic> deviceList;
 
+   Widget _viewRows() {
+    return Column(
+      children: <Widget>[
+        for (final widget in _renderWidget)
+          Expanded(
+            child: Container(
+              child: widget,
+            ),
+          )
+      ],
+    );
+  }
+
+  Iterable<Widget> get _renderWidget sync* {
+    for (final streamId in _remoteUsers) {
+      double width = MediaQuery.of(context).size.width;
+     yield EnxPlayerWidget(streamId, local: false,width:width.toInt(),height:380);
+    }
+  }
+
+  final _remoteUsers = List<int>();
+
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -236,7 +255,7 @@ class Conference extends State<MyConfApp> {
                   height: 100,
                   width: MediaQuery.of(context).size.width,
                   child: Container(
-                    color: Colors.red,
+                    color: Colors.black,
                     height: 100,
                     width: 100,
                     child: EnxPlayerWidget(0, local: true,width: 100, height: 100),
@@ -253,7 +272,7 @@ class Conference extends State<MyConfApp> {
                         children: <Widget>[
                           Expanded(
                             child: Container(
-                              child: EnxPlayerWidget(remoteView,width:320,height:380),
+                              child: _viewRows()
                             ),
                           )
                         ],
@@ -378,7 +397,7 @@ class ActiveList {
 
 class ActiveListModel {
   String name;
-  int streamId;
+  String streamId;
   String clientId;
   String videoaspectratio;
   String mediatype;
@@ -392,7 +411,7 @@ class ActiveListModel {
   factory ActiveListModel.fromJson(Map<dynamic, dynamic> json) {
     return ActiveListModel(
       json['name'] as String,
-      json['streamId'] as int,
+      json['streamId'] as String,
       json['clientId'] as String,
       json['videoaspectratio'] as String,
       json['mediatype'] as String,

@@ -1,0 +1,11 @@
+framework module enx_flutter_plugin {
+  umbrella header "enx_flutter_plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module enx_flutter_plugin.Swift {
+    header "enx_flutter_plugin-Swift.h"
+    requires objc
+}

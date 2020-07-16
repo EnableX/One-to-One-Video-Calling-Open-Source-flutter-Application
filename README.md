@@ -61,17 +61,18 @@ Once you tried EnableX Android Sample Application, you may need to setup your ow
 - You need to create a Room by clicking the "Create Room" button.
 - Once the Room Id is created, you can use it and share with others to connect to the Virtual Room to carry out a RTC Session.
 
-## 2 Server API
+## 2 Setup Your Own Application Server
 
-EnableX Server API is a Rest API service meant to be called from Partners' Application Server to provision video enabled
-meeting rooms. API Access is given to each Application through the assigned App ID and App Key. So, the App ID and App Key
-are to be used as Username and Password respectively to pass as HTTP Basic Authentication header to access Server API.
+You may need to setup your own Application Server after you tried the Sample Application with EnableX hosted Server. We have differnt variant of Appliciation Server Sample Code, pick one in your preferred language and follow instructions given in respective README.md file.
 
-For this application, the following Server API calls are used:
+*NodeJS: [https://github.com/EnableX/Video-Conferencing-Open-Source-Web-Application-Sample.git]
+*PHP: [https://github.com/EnableX/Group-Video-Call-Conferencing-Sample-Application-in-PHP]
 
-- https://developer.enablex.io/latest/server-api/rooms-route/#get-rooms - To get list of Rooms
-- https://developer.enablex.io/latest/server-api/rooms-route/#get-room-info - To get information of the given Room
-- https://developer.enablex.io/latest/server-api/rooms-route/#create-token - To create Token for the given Room
+Note the following:
+
+* You need to use App ID and App Key to run this Service.
+* Your iOS Client End Point needs to connect to this Service to create Virtual Room and Create Token to join session.
+* Application Server is created using EnableX Server API, a Rest API Service helps in provisioning, session access and pos-session reporting.  
 
 To know more about Server API, go to:
 https://developer.enablex.io/latest/server-api/
@@ -150,3 +151,10 @@ EnxFlutterPlugin.onRoomConnected = (Map<dynamic, dynamic> map) {
      /* Handle Stream Players */
 }
 ```
+## 5 Demo
+
+EnableX provides hosted Vemo Application of different use-case for you to try out.
+
+1. Try a quick Video Call: https://try.enablex.io
+2. Try Apps on Demo Zone: https://portal.enablex.io/demo-zone/
+3. Try Meeting & Webinar:  https://www.enablex.io/ucaas/
