@@ -61,6 +61,8 @@ Once you tried EnableX Android Sample Application, you may need to setup your ow
 - You need to create a Room by clicking the "Create Room" button.
 - Once the Room Id is created, you can use it and share with others to connect to the Virtual Room to carry out a RTC Session.
 
+Note:- If you used any emulator/simulator your local stream will not create. It will create only on real device.
+
 ## 2 Setup Your Own Application Server
 
 You may need to setup your own Application Server after you tried the Sample Application with EnableX hosted Server. We have differnt variant of Appliciation Server Sample Code, pick one in your preferred language and follow instructions given in respective README.md file.
