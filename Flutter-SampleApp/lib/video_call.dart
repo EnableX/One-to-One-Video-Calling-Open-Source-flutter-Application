@@ -43,44 +43,44 @@ class Conference extends State<MyConfApp> {
       'name': 'flutter',
       'videoSize': map2
     };
-    await EnxFlutterPlugin.joinRoom(widget.token, map1, null, null);
+    await EnxRtc.joinRoom(widget.token, map1, null, null);
   }
 
   void _addEnxrtcEventHandlers() {
-    EnxFlutterPlugin.onRoomConnected = (Map<dynamic, dynamic> map) {
+    EnxRtc.onRoomConnected = (Map<dynamic, dynamic> map) {
       setState(() {
         print('onRoomConnectedFlutter' + jsonEncode(map));
       });
-      EnxFlutterPlugin.publish();
+      EnxRtc.publish();
     };
 
-    EnxFlutterPlugin.onPublishedStream = (Map<dynamic, dynamic> map) {
+    EnxRtc.onPublishedStream = (Map<dynamic, dynamic> map) {
       setState(() {
         print('onPublishedStream' + jsonEncode(map));
-        EnxFlutterPlugin.setupVideo(0, 0, true, 300, 200);
+        EnxRtc.setupVideo(0, 0, true, 300, 200);
       });
     };
 
-    EnxFlutterPlugin.onStreamAdded = (Map<dynamic, dynamic> map) {
+    EnxRtc.onStreamAdded = (Map<dynamic, dynamic> map) {
       print('onStreamAdded' + jsonEncode(map));
       print('onStreamAdded Id' + map['streamId']);
       String streamId;
       setState(() {
         streamId = map['streamId'];
       });
-      EnxFlutterPlugin.subscribe(streamId);
+      EnxRtc.subscribe(streamId);
     };
 
-    EnxFlutterPlugin.onRoomError = (Map<dynamic, dynamic> map) {
+    EnxRtc.onRoomError = (Map<dynamic, dynamic> map) {
       setState(() {
         print('onRoomError' + jsonEncode(map));
       });
     };
-    EnxFlutterPlugin.onNotifyDeviceUpdate = (String deviceName) {
+    EnxRtc.onNotifyDeviceUpdate = (String deviceName) {
       print('onNotifyDeviceUpdate' + deviceName);
     };
 
-    EnxFlutterPlugin.onActiveTalkerList = (Map<dynamic, dynamic> map) {
+    EnxRtc.onActiveTalkerList = (Map<dynamic, dynamic> map) {
       final items = (map['activeList'] as List)
           .map((i) => new ActiveListModel.fromJson(i));
       if (items.length > 0) {
@@ -93,34 +93,34 @@ class Conference extends State<MyConfApp> {
       }
     };
 
-    EnxFlutterPlugin.onEventError = (Map<dynamic, dynamic> map) {
+    EnxRtc.onEventError = (Map<dynamic, dynamic> map) {
       setState(() {
         print('onEventError' + jsonEncode(map));
       });
     };
 
-    EnxFlutterPlugin.onEventInfo = (Map<dynamic, dynamic> map) {
+    EnxRtc.onEventInfo = (Map<dynamic, dynamic> map) {
       setState(() {
         print('onEventInfo' + jsonEncode(map));
       });
     };
-    EnxFlutterPlugin.onUserConnected = (Map<dynamic, dynamic> map) {
+    EnxRtc.onUserConnected = (Map<dynamic, dynamic> map) {
       setState(() {
         print('onUserConnected' + jsonEncode(map));
       });
     };
-    EnxFlutterPlugin.onUserDisConnected = (Map<dynamic, dynamic> map) {
+    EnxRtc.onUserDisConnected = (Map<dynamic, dynamic> map) {
       setState(() {
         print('onUserDisConnected' + jsonEncode(map));
       });
     };
-    EnxFlutterPlugin.onRoomDisConnected = (Map<dynamic, dynamic> map) {
+    EnxRtc.onRoomDisConnected = (Map<dynamic, dynamic> map) {
       setState(() {
         print('onRoomDisConnected' + jsonEncode(map));
         Navigator.pop(context, '/Conference');
       });
     };
-    EnxFlutterPlugin.onAudioEvent = (Map<dynamic, dynamic> map) {
+    EnxRtc.onAudioEvent = (Map<dynamic, dynamic> map) {
       print('onAudioEvent' + jsonEncode(map));
       setState(() {
         if (map['msg'].toString() == "Audio Off") {
@@ -130,7 +130,7 @@ class Conference extends State<MyConfApp> {
         }
       });
     };
-    EnxFlutterPlugin.onVideoEvent = (Map<dynamic, dynamic> map) {
+    EnxRtc.onVideoEvent = (Map<dynamic, dynamic> map) {
       print('onVideoEvent' + jsonEncode(map));
       setState(() {
         if (map['msg'].toString() == "Video Off") {
@@ -144,7 +144,7 @@ class Conference extends State<MyConfApp> {
 
   void _setMediaDevice(String value) {
     Navigator.of(context, rootNavigator: true).pop();
-    EnxFlutterPlugin.switchMediaDevice(value);
+    EnxRtc.switchMediaDevice(value);
   }
 
   createDialog() {
@@ -175,27 +175,27 @@ class Conference extends State<MyConfApp> {
   }
 
   void _disconnectRoom() {
-    EnxFlutterPlugin.disconnect();
+    EnxRtc.disconnect();
   }
 
   void _toggleAudio() {
     if (isAudioMuted) {
-      EnxFlutterPlugin.muteSelfAudio(false);
+      EnxRtc.muteSelfAudio(false);
     } else {
-      EnxFlutterPlugin.muteSelfAudio(true);
+      EnxRtc.muteSelfAudio(true);
     }
   }
 
   void _toggleVideo() {
     if (isVideoMuted) {
-      EnxFlutterPlugin.muteSelfVideo(false);
+      EnxRtc.muteSelfVideo(false);
     } else {
-      EnxFlutterPlugin.muteSelfVideo(true);
+      EnxRtc.muteSelfVideo(true);
     }
   }
 
   void _toggleSpeaker() async {
-    List<dynamic> list = await EnxFlutterPlugin.getDevices();
+    List<dynamic> list = await EnxRtc.getDevices();
     setState(() {
       deviceList = list;
     });
@@ -205,7 +205,7 @@ class Conference extends State<MyConfApp> {
   }
 
   void _toggleCamera() {
-    EnxFlutterPlugin.switchCamera();
+    EnxRtc.switchCamera();
   }
 
   int remoteView = -1;

@@ -1,0 +1,112 @@
+{
+  "event_ice_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "ice-failed"
+  },
+  "event_stream_subscribe_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "stream-subscribe-failed"
+  },
+  "event_stream_unsubscribe_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "stream-unsubscribe-failed"
+  },
+  "event_socket_connect_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "socket-connect-failed"
+  },
+  "event_stream_publish_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "stream-publish-failed"
+  },
+  "event_stream_unpublish_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "stream-unpublish-failed"
+  },
+  "event_start_recording_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "start-recording-failed"
+  },
+  "event_stop_recording_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "stop-recording-failed"
+  },
+  "event_start_screenshare_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "start-screenshare-failed"
+  },
+  "event_stop_screenshare_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "stop-screenshare-failed"
+  },
+  "event_start_canvas_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "start-canvas-failed"
+  },
+  "event_stop_canvas_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "stop-canvas-failed"
+  },
+  "event_send_message_failed": {
+    "event_code": "000",
+    "severity": "high",
+    "event_name": "send-message-failed"
+  },
+  "event_send_data_failed": {
+    "event_code": "000",
+    "severity": "high",
+    "event_name": "send-data-failed"
+  },
+  "event_media_access_denied": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "media-access-denied"
+  },
+  "event_gum_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "gum-failed"
+  },
+  "event_audio_device_access_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "audio-device-access-failed"
+  },
+  "event_video_device_access_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "video-device-access-failed"
+  },
+  "event_remote_canvas_stream_failed": {
+    "event_code": "000",
+    "severity": "high",
+    "event_name": "remote-canvas-stream-failed"
+  },
+  "event_capture_canvas_stream_failed": {
+    "event_code": "000",
+    "severity": "critical",
+    "event_name": "capture-canvas-stream-failed"
+  },
+  "event_set_local_description": {
+    "event_code": "000",
+    "severity": "none",
+    "event_name": "set-local-description"
+  },
+  "event_set_remote_description": {
+    "event_code": "000",
+    "severity": "none",
+    "event_name": "set-remote-description"
+  }
+}
