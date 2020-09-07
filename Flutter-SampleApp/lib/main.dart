@@ -35,8 +35,8 @@ class _State extends State<MyApp> {
   /* To try the app with Enablex hosted service you need to set the kTry = true */
   static bool kTry = true;
   /*Use enablec portal to create your app and get these following credentials*/
-  static final String kAppId = "5ef5b31690ef80b4300b0bd2";
-  static final String kAppkey = "uJehyWaAu4uvyTupeJyJuHu6ygyYaGu2yzuq";
+  static final String kAppId = "app_id";
+  static final String kAppkey = "app_key";
   var header = (kTry)
       ? {
           "x-app-id": kAppId,
@@ -77,7 +77,7 @@ class _State extends State<MyApp> {
   Future<void> permissionAccess() async {
     var result =
         await PermissionService().requestPermission(onPermissionDenied: () {
-      print('Permission has been denied');
+//      print('Permission has been denied');
     });
 
     if (result) {

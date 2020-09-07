@@ -81,13 +81,17 @@ class Conference extends State<MyConfApp> {
     };
 
     EnxRtc.onActiveTalkerList = (Map<dynamic, dynamic> map) {
+      print('onActiveTalkerList ' + map.toString());
+
       final items = (map['activeList'] as List)
           .map((i) => new ActiveListModel.fromJson(i));
       if (items.length > 0) {
         setState(() {
           for (final item in items) {
-            _remoteUsers.add(int.parse(item.streamId));
-            break;
+            if(!_remoteUsers.contains(item.streamId)){
+              print('_remoteUsers ' + map.toString());
+              _remoteUsers.add(item.streamId);
+            }
           }
         });
       }
@@ -397,7 +401,7 @@ class ActiveList {
 
 class ActiveListModel {
   String name;
-  String streamId;
+  int streamId;
   String clientId;
   String videoaspectratio;
   String mediatype;
@@ -409,9 +413,11 @@ class ActiveListModel {
 
   // convert Json to an exercise object
   factory ActiveListModel.fromJson(Map<dynamic, dynamic> json) {
+    int sId = int.parse(json['streamId'].toString());
     return ActiveListModel(
       json['name'] as String,
-      json['streamId'] as String,
+      sId,
+//      json['streamId'] as int,
       json['clientId'] as String,
       json['videoaspectratio'] as String,
       json['mediatype'] as String,
