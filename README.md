@@ -1,6 +1,6 @@
 # 1-to-1 RTC: A Sample Flutter App with EnableX Flutter Toolkit
 
-This is a Sample Flutter App demonstrates the use of EnableX (https://www.enablex.io) platform Server APIs and Flutter Toolkit to build 1-to-1 RTC (Real Time Communication) Application. It allows developers to ramp up on app development by hosting on their own devices.
+This is a Sample Flutter App demonstrates the use of EnableX (https://www.enablex.io/cpaas/video-api) platform Server APIs and Flutter Toolkit to build 1-to-1 RTC (Real Time Communication) Application. It allows developers to ramp up on app development by hosting on their own devices.
 
 This App creates a virtual Room on the fly hosted on the Enablex platform using REST calls and uses the Room credentials (i.e. Room Id) to connect to the virtual Room as a mobile client. The same Room credentials can be shared with others to join the same virtual Room to carry out a RTC session.
 
@@ -12,7 +12,7 @@ This App creates a virtual Room on the fly hosted on the Enablex platform using 
 
 #### 1.1.1 App Id and App Key
 
-- Register with EnableX [https://www.enablex.io]
+- Register with EnableX [https://portal.enablex.io/cpaas/trial-sign-up/]
 - Login to the EnableX Portal
 - Create your Application Key
 - Get your App ID and App Key delivered to your Email
