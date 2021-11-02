@@ -1,0 +1,330 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:1:1-61:12
+INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:1:1-61:12
+INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:1:1-61:12
+INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:1:1-61:12
+MERGED from [:enx_flutter_plugin] /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler] /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/permission_handler/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [org.webrtc:google-webrtc:1.0.32006] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/518947961dcee7f2a5267512df96d774/jetified-google-webrtc-1.0.32006/AndroidManifest.xml:11:1-14:12
+MERGED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:2:1-50:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/b79b3f5eb9c39135f97095487c7ccc21/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5925df9f692b883281dcc2dfd1f4438c/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e43f68137f1f0413490c51369e34779f/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/4925c6f1b8e652216f47809f913da880/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/4ee3582c267fc78b9fdd2ffd77bef8c7/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/693a2be2eff369237c112bd398317b8e/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/bb2be301a8be9cc853f4b92b6d02aee6/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/4936cb6b2181c40db2ac134f992a5088/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/a7054ac86241259aa9fa558433eee2bc/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/10bf1777ca80d4707ec43ebf122e0e99/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/f6b36564d1c865ffbf45fa054106c365/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/96bf53655d91193c010eac04f84f146d/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/15a9f4bf7ee34ce6f7b90a95b9983687/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/896f35c13f7077b5cccd65a228d5ab12/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9eee954de688f72df278ea47ce337ca2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/ee639843de311933140aba7ef1f07f5c/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/de818f970c275e3b38d37b4b9ca33f3b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/fffd9ee1bdad979c7c7d0c5b32c47908/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/94455f7b5e1d6f39f3b69a5c192ea82b/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/c24dffdf372b3e6834d2840c75cba941/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9980b5de2d2e2f9eac95cd228bdd6954/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/f2f4c5391889861639d47ca200155fac/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/2cd758f055615e8d17da8a54f8bab58f/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e1df2e79dbe4e08055274d6de98ad5a5/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/512dfad12b280e035344a9c5150229b5/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/21a70a73cb760876ee6f2fa8dd4ebae4/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5b9e99492c461db388ce0621e10d5613/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/52ad9a76f27294d55993d601094aa2ba/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/f9f7b828037a7f72509ecd9578dc83c4/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/16bd2b05f768c9edc55336e1188e91b5/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/548ffb78cfc6d56d63dfae155d039c6f/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/39a4f63aaf97930ca68830e0577c176d/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/a1da0943bddf9aa12527225574147cdf/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9021365576a37e88875fd55734bef969/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/b4249d7bba98c5873a3ff001917cd242/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/137de770cbce8e5cce1ea88acf855400/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9cc176fc3045be59ab15b0d48e13879e/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/da3244fcf326ee0cb8ab0c9a4ae2eec6/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/0a4cf456c33a3591e3228a5399f67c3e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/a0030cd4ed615471584e1eb822aa5fc7/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/85c131566b6efd3c62dfe48dddf3bd53/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:1:1-61:12
+INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:1:1-61:12
+INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:1:1-61:12
+	package
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:2:5-43
+		INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:1:1-61:12
+		INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:1:1-61:12
+		INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:9:22-62
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:12:22-68
+uses-permission#android.permission.INTERNET
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:13:5-67
+MERGED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:12:5-67
+MERGED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:16:22-77
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:17:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:18:22-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:19:22-65
+application
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:21:5-60:19
+MERGED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:35:5-48:19
+MERGED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:35:5-48:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e43f68137f1f0413490c51369e34779f/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e43f68137f1f0413490c51369e34779f/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/4925c6f1b8e652216f47809f913da880/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/4925c6f1b8e652216f47809f913da880/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.3.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/512dfad12b280e035344a9c5150229b5/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/512dfad12b280e035344a9c5150229b5/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/548ffb78cfc6d56d63dfae155d039c6f/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/548ffb78cfc6d56d63dfae155d039c6f/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/39a4f63aaf97930ca68830e0577c176d/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/39a4f63aaf97930ca68830e0577c176d/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/a0030cd4ed615471584e1eb822aa5fc7/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/a0030cd4ed615471584e1eb822aa5fc7/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/512dfad12b280e035344a9c5150229b5/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:23:9-41
+	android:icon
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:25:9-43
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:22:9-57
+activity#com.enablex.fluttersampleapp.MainActivity
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:26:9-54:20
+	android:launchMode
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:28:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:31:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:32:13-55
+	android:configChanges
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:30:13-163
+	android:theme
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:29:13-47
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:27:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:37:13-40:17
+	android:resource
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:39:15-52
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:38:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:46:13-49:17
+	android:resource
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:48:15-61
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:47:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:50:13-53:29
+action#android.intent.action.MAIN
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:51:17-68
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:51:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:52:17-76
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:52:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:57:9-59:33
+	android:value
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:59:13-30
+	android:name
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml:58:13-44
+uses-sdk
+INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:enx_flutter_plugin] /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:enx_flutter_plugin] /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/permission_handler/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/permission_handler/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [org.webrtc:google-webrtc:1.0.32006] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/518947961dcee7f2a5267512df96d774/jetified-google-webrtc-1.0.32006/AndroidManifest.xml:13:3-72
+MERGED from [org.webrtc:google-webrtc:1.0.32006] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/518947961dcee7f2a5267512df96d774/jetified-google-webrtc-1.0.32006/AndroidManifest.xml:13:3-72
+MERGED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:8:5-10:41
+MERGED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/b79b3f5eb9c39135f97095487c7ccc21/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/b79b3f5eb9c39135f97095487c7ccc21/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5925df9f692b883281dcc2dfd1f4438c/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5925df9f692b883281dcc2dfd1f4438c/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e43f68137f1f0413490c51369e34779f/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e43f68137f1f0413490c51369e34779f/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/4925c6f1b8e652216f47809f913da880/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/4925c6f1b8e652216f47809f913da880/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/4ee3582c267fc78b9fdd2ffd77bef8c7/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/4ee3582c267fc78b9fdd2ffd77bef8c7/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.media:media:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/693a2be2eff369237c112bd398317b8e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/693a2be2eff369237c112bd398317b8e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/bb2be301a8be9cc853f4b92b6d02aee6/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/bb2be301a8be9cc853f4b92b6d02aee6/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/4936cb6b2181c40db2ac134f992a5088/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/4936cb6b2181c40db2ac134f992a5088/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/a7054ac86241259aa9fa558433eee2bc/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/a7054ac86241259aa9fa558433eee2bc/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/10bf1777ca80d4707ec43ebf122e0e99/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/10bf1777ca80d4707ec43ebf122e0e99/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/f6b36564d1c865ffbf45fa054106c365/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/f6b36564d1c865ffbf45fa054106c365/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/96bf53655d91193c010eac04f84f146d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/96bf53655d91193c010eac04f84f146d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/15a9f4bf7ee34ce6f7b90a95b9983687/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/15a9f4bf7ee34ce6f7b90a95b9983687/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/896f35c13f7077b5cccd65a228d5ab12/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/896f35c13f7077b5cccd65a228d5ab12/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9eee954de688f72df278ea47ce337ca2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9eee954de688f72df278ea47ce337ca2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/ee639843de311933140aba7ef1f07f5c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/ee639843de311933140aba7ef1f07f5c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/de818f970c275e3b38d37b4b9ca33f3b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/de818f970c275e3b38d37b4b9ca33f3b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/fffd9ee1bdad979c7c7d0c5b32c47908/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/fffd9ee1bdad979c7c7d0c5b32c47908/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/94455f7b5e1d6f39f3b69a5c192ea82b/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/94455f7b5e1d6f39f3b69a5c192ea82b/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/c24dffdf372b3e6834d2840c75cba941/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/c24dffdf372b3e6834d2840c75cba941/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9980b5de2d2e2f9eac95cd228bdd6954/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9980b5de2d2e2f9eac95cd228bdd6954/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/f2f4c5391889861639d47ca200155fac/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/f2f4c5391889861639d47ca200155fac/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/2cd758f055615e8d17da8a54f8bab58f/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/2cd758f055615e8d17da8a54f8bab58f/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e1df2e79dbe4e08055274d6de98ad5a5/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e1df2e79dbe4e08055274d6de98ad5a5/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/512dfad12b280e035344a9c5150229b5/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/512dfad12b280e035344a9c5150229b5/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/21a70a73cb760876ee6f2fa8dd4ebae4/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/21a70a73cb760876ee6f2fa8dd4ebae4/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5b9e99492c461db388ce0621e10d5613/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5b9e99492c461db388ce0621e10d5613/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/52ad9a76f27294d55993d601094aa2ba/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/52ad9a76f27294d55993d601094aa2ba/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/f9f7b828037a7f72509ecd9578dc83c4/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/f9f7b828037a7f72509ecd9578dc83c4/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/16bd2b05f768c9edc55336e1188e91b5/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/16bd2b05f768c9edc55336e1188e91b5/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/548ffb78cfc6d56d63dfae155d039c6f/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/548ffb78cfc6d56d63dfae155d039c6f/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/39a4f63aaf97930ca68830e0577c176d/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/39a4f63aaf97930ca68830e0577c176d/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/a1da0943bddf9aa12527225574147cdf/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/a1da0943bddf9aa12527225574147cdf/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9021365576a37e88875fd55734bef969/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9021365576a37e88875fd55734bef969/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/b4249d7bba98c5873a3ff001917cd242/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/b4249d7bba98c5873a3ff001917cd242/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/137de770cbce8e5cce1ea88acf855400/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/137de770cbce8e5cce1ea88acf855400/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9cc176fc3045be59ab15b0d48e13879e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/9cc176fc3045be59ab15b0d48e13879e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/da3244fcf326ee0cb8ab0c9a4ae2eec6/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/da3244fcf326ee0cb8ab0c9a4ae2eec6/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/0a4cf456c33a3591e3228a5399f67c3e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/0a4cf456c33a3591e3228a5399f67c3e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/a0030cd4ed615471584e1eb822aa5fc7/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/a0030cd4ed615471584e1eb822aa5fc7/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/85c131566b6efd3c62dfe48dddf3bd53/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/85c131566b6efd3c62dfe48dddf3bd53/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:13:22-76
+meta-data#android.webkit.WebView.EnableSafeBrowsing
+ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:36:9-38:37
+	android:value
+		ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:38:13-34
+	android:name
+		ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:37:13-69
+receiver#enx_rtc_android.Controller.EnxBatteryLevelReceiver
+ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:40:9-47:20
+	android:name
+		ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:40:19-84
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:41:13-46:29
+action#android.intent.action.BATTERY_LOW
+ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:42:25-73
+action#android.intent.action.BATTERY_OKAY
+ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:43:25-74
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:44:17-87
+	android:name
+		ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:44:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:45:17-90
+	android:name
+		ADDED from [:Enx-Rtc-Android-Release_2.0.0:] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/AndroidManifest.xml:45:25-87
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/39a4f63aaf97930ca68830e0577c176d/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/39a4f63aaf97930ca68830e0577c176d/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/39a4f63aaf97930ca68830e0577c176d/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/39a4f63aaf97930ca68830e0577c176d/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/39a4f63aaf97930ca68830e0577c176d/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79

@@ -1,0 +1,406 @@
+[
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_type_tool.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/ic_type_tool.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_btn_check_material_anim.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_calendar_black_24dp.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/ic_calendar_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_screenshot.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/ic_screenshot.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/btn_radio_off_mtrl.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/design_fab_background.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_edit_black_24dp.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/btn_radio_on_mtrl.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/enxscreenshot.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/enxscreenshot.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/enxavtar.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/enxavtar.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/mtrl_dialog_background.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/mtrl_dialog_background.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/selector.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/selector.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/btn_checkbox_unchecked_mtrl.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e4600d37188396fa00dd9b72f8f3ebdd/core-1.7.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_star_black_48dp.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_star_black_48dp.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/enxvideomuted.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/enxvideomuted.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_mtrl_chip_checked_circle.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_mtrl_chip_close_circle.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/enxaudiomuted.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/enxaudiomuted.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e4600d37188396fa00dd9b72f8f3ebdd/core-1.7.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_color_picker.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/ic_color_picker.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_keyboard_arrow_left_black_24dp.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/equilizer.gif",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/equilizer.gif"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_vector_test.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/7d083320c734cfa9e0d17ab6d6b4281e/jetified-appcompat-resources-1.4.0-rc01/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/mtrl_ic_error.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/mtrl_ic_error.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/enxpinselected.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/enxpinselected.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/no_selected.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/no_selected.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/enxbandwidth.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/enxbandwidth.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_pencil.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/ic_pencil.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_confirmation.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/ic_confirmation.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/done_selector.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/done_selector.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/mtrl_popupmenu_background.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/mtrl_popupmenu_background.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/mtrl_ic_cancel.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/mtrl_ic_cancel.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/design_snackbar_background.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/enxstats.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/enxstats.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_clear_black_24dp.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/ic_clear_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/color_picker_border.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/color_picker_border.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/test_custom_background.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/test_custom_background.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/item_selected.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/item_selected.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/btn_checkbox_checked_mtrl.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_menu_arrow_up_black_24dp.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/ic_menu_arrow_up_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_keyboard_arrow_right_black_24dp.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_mtrl_chip_checked_black.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/color_picker.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/color_picker.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_star_half_black_48dp.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_star_half_black_48dp.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/mtrl_dropdown_arrow.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/mtrl_dropdown_arrow.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/tooltip_frame_light.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/test_level_drawable.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/test_level_drawable.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/enxlowbandwidth.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/enxlowbandwidth.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e4600d37188396fa00dd9b72f8f3ebdd/core-1.7.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/mtrl_tabs_default_indicator.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/mtrl_ic_arrow_drop_down.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/mtrl_ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_erase.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/ic_erase.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/close.png",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/close.png"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/done_no_selected.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/13cc97a58c280284d8a87f2e599a034d/jetified-Enx-Rtc-Android-Release_2.0.0/res/drawable/done_no_selected.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_menu_selectall_mtrl_alpha.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_menu_selectall_mtrl_alpha.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_menu_share_mtrl_alpha.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_menu_share_mtrl_alpha.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_btn_radio_material_anim.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_mtrl_checked_circle.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/ic_menu_arrow_down_black_24dp.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/ic_menu_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/e4600d37188396fa00dd9b72f8f3ebdd/core-1.7.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ic_menu_cut_mtrl_alpha.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ic_menu_cut_mtrl_alpha.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/mtrl_ic_arrow_drop_up.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/5c505800c3def4242d73c5cc8351f6cc/material-1.1.0/res/drawable/mtrl_ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/tooltip_frame_dark.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/enx_flutter_plugin/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/3244a36007d9afc2399c7fb3b5106652/appcompat-1.4.0-rc01/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    }
+]

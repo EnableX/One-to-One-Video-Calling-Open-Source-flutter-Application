@@ -28,7 +28,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
 
-  enx_flutter_plugin : 1.8.0
+  enx_flutter_plugin : 1.9.4
     # When depending on this package from a real application you should use:
     #   enx_flutter_plugin: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints

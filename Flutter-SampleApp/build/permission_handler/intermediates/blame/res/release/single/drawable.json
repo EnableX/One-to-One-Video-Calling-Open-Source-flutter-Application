@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/permission_handler/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/81a21f313c7585eee8a8b03111e4bc9a/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/permission_handler/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/81a21f313c7585eee8a8b03111e4bc9a/core-1.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/permission_handler/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/81a21f313c7585eee8a8b03111e4bc9a/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/permission_handler/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/pankajpandey/.gradle/caches/transforms-2/files-2.1/81a21f313c7585eee8a8b03111e4bc9a/core-1.1.0/res/drawable/notification_icon_background.xml"
+    }
+]

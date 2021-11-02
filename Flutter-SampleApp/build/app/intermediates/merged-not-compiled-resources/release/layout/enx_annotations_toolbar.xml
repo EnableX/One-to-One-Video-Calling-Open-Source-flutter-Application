@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <HorizontalScrollView
+        android:id="@+id/color_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:isScrollContainer="true"
+        android:visibility="gone"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:id="@+id/color_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/toolbar_height"
+        android:orientation="horizontal"
+        android:background="@color/toolbar_bckg"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/picker_blue"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/color_picker"
+            android:background="@drawable/selector"
+            android:tint="@color/picker_color_blue"
+            android:clickable="true" />
+
+        <ImageButton
+            android:id="@+id/picker_purple"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/color_picker"
+            android:background="@drawable/selector"
+            android:tint="@color/picker_color_purple"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/picker_red"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/color_picker"
+            android:background="@drawable/selector"
+            android:tint="@color/picker_color_red"
+            android:clickable="true" />
+
+        <ImageButton
+            android:id="@+id/picker_orange"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/color_picker"
+            android:background="@drawable/selector"
+            android:tint="@color/picker_color_orange"
+            android:clickable="true" />
+
+        <ImageButton
+            android:id="@+id/picker_yellow"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/color_picker"
+            android:background="@drawable/selector"
+            android:tint="@color/picker_color_yellow"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/picker_green"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/color_picker"
+            android:background="@drawable/selector"
+            android:tint="@color/picker_color_green"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/picker_black"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/color_picker"
+            android:background="@drawable/selector"
+            android:tint="@color/picker_color_black"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/picker_gray"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/color_picker"
+            android:background="@drawable/selector"
+            android:tint="@color/picker_color_gray"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/picker_white"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/color_picker"
+            android:background="@drawable/selector"
+            android:tint="@color/picker_color_white"
+            android:clickable="true"/>
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/toolbar_bckg"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/done"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/toolbar_height"
+            android:gravity="center"
+            android:src="@drawable/ic_confirmation"
+            android:background="@drawable/done_selector"
+            android:clickable="true"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/draw_freehand"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_pencil"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/selector"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/done"/>
+
+        <ImageButton
+            android:id="@+id/picker_color"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/color_picker"
+            android:background="@drawable/selector"
+            android:tint="@color/picker_color_orange"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/draw_freehand"/>
+
+        <ImageButton
+            android:id="@+id/type_tool"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_type_tool"
+            android:background="@drawable/selector"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/picker_color"/>
+
+        <!--<ImageButton
+            android:id="@+id/screenshot"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_screenshot"
+            android:background="@drawable/selector"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/type_tool"/>-->
+
+        <ImageButton
+            android:id="@+id/erase"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_erase"
+            android:background="@drawable/selector"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/type_tool"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

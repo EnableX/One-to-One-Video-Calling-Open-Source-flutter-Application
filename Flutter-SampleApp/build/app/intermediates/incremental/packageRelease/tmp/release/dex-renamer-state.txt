@@ -1,0 +1,4 @@
+#Tue Nov 02 16:04:57 IST 2021
+base.0=/Users/pankajpandey/Desktop/Flutter Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/build/app/intermediates/dex/release/shrunkDex/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
