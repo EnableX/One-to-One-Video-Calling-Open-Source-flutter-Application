@@ -45,7 +45,11 @@
     },
     {
       "name": "enx_flutter_plugin",
+<<<<<<< HEAD
       "rootUri": "file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/.pub-cache/hosted/pub.dartlang.org/enx_flutter_plugin-1.9.4",
+=======
+      "rootUri": "file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/.pub-cache/hosted/pub.dartlang.org/enx_flutter_plugin-1.9.2",
+>>>>>>> 014c9c4bb082578de2241c19f887a3a9a9663bdc
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -176,7 +180,11 @@
       "languageVersion": "2.7"
     }
   ],
+<<<<<<< HEAD
   "generated": "2021-10-13T06:19:49.847815Z",
+=======
+  "generated": "2021-10-18T07:13:06.432026Z",
+>>>>>>> 014c9c4bb082578de2241c19f887a3a9a9663bdc
   "generator": "pub",
   "generatorVersion": "2.12.0"
 }

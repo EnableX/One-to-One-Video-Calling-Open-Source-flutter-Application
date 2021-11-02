@@ -36,8 +36,10 @@ class _State extends State<MyApp> {
   /* To try the app with Enablex hosted service you need to set the kTry = true */
   static bool kTry = true;
   /*Use enablec portal to create your app and get these following credentials*/
-  static final String kAppId = "app-id";
-  static final String kAppkey = "app-key";
+
+  static final String kAppId = "App-Id";
+  static final String kAppkey = "App-Key";
+
   var header = (kTry)
       ? {
           "x-app-id": kAppId,

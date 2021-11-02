@@ -56,7 +56,11 @@ packages:
       name: enx_flutter_plugin
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "1.9.4"
+=======
+    version: "1.9.2"
+>>>>>>> 014c9c4bb082578de2241c19f887a3a9a9663bdc
   fake_async:
     dependency: transitive
     description:

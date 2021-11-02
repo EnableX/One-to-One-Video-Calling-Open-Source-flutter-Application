@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 fluttersampleapp
 2.7
 file:///Users/pankajpandey/Desktop/Flutter%20Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/
 file:///Users/pankajpandey/Desktop/Flutter%20Project/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/lib/
+=======
+>>>>>>> 014c9c4bb082578de2241c19f887a3a9a9663bdc
 async
 2.12
 file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0/
@@ -32,8 +35,13 @@ file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/.pub-cache/hosted/pub.dart
 file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3/lib/
 enx_flutter_plugin
 2.12
+<<<<<<< HEAD
 file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/.pub-cache/hosted/pub.dartlang.org/enx_flutter_plugin-1.9.4/
 file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/.pub-cache/hosted/pub.dartlang.org/enx_flutter_plugin-1.9.4/lib/
+=======
+file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/.pub-cache/hosted/pub.dartlang.org/enx_flutter_plugin-1.9.2/
+file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/.pub-cache/hosted/pub.dartlang.org/enx_flutter_plugin-1.9.2/lib/
+>>>>>>> 014c9c4bb082578de2241c19f887a3a9a9663bdc
 fake_async
 2.12
 file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/
@@ -114,4 +122,11 @@ flutter_test
 2.12
 file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/packages/flutter_test/
 file:///Users/pankajpandey/Desktop/FlutterSdk/flutter/packages/flutter_test/lib/
+<<<<<<< HEAD
+=======
+fluttersampleapp
+2.7
+file:///Users/pankajpandey/Desktop/Projects/Flutter/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/
+file:///Users/pankajpandey/Desktop/Projects/Flutter/One-to-One-Video-Calling-Open-Source-flutter-Application/Flutter-SampleApp/lib/
+>>>>>>> 014c9c4bb082578de2241c19f887a3a9a9663bdc
 2
