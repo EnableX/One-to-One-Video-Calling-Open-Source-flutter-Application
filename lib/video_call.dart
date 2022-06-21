@@ -411,10 +411,9 @@ class ActiveListModel {
   String videoaspectratio;
   String mediatype;
   bool videomuted;
-  String reason;
 
   ActiveListModel(this.name, this.streamId, this.clientId,
-      this.videoaspectratio, this.mediatype, this.videomuted, this.reason);
+      this.videoaspectratio, this.mediatype, this.videomuted);
 
   // convert Json to an exercise object
   factory ActiveListModel.fromJson(Map<dynamic, dynamic> json) {
@@ -427,7 +426,6 @@ class ActiveListModel {
       json['videoaspectratio'] as String,
       json['mediatype'] as String,
       json['videomuted'] as bool,
-      json['reason'] as String,
     );
   }
 }

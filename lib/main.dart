@@ -36,8 +36,8 @@ class _State extends State<MyApp> {
   static bool kTry = true;
   /*Use enablec portal to create your app and get these following credentials*/
 
-  static final String kAppId = "App-Id";
-  static final String kAppkey = "App-key";
+  static final String kAppId = "AppId";
+  static final String kAppkey = "AppKey";
 
   var header = (kTry)
       ? {
