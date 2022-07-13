@@ -32,7 +32,7 @@ class Conference extends State<MyConfApp> {
       'maxWidth': 1280,
       'maxHeight': 720
     };
-    Map<String, dynamic> map1 = {
+    Map<String, dynamic> localInfo = {
       'audio': true,
       'video': true,
       'data': true,
@@ -44,8 +44,15 @@ class Conference extends State<MyConfApp> {
       'name': 'flutter',
       'videoSize': map2
     };
+    
+   Map<String, dynamic> roomInfo = {
+	'allow_reconnect': true,
+	'number_of_attempts': 3,
+	'timeout_interval': 15,
+};
+
     print('here 2');
-    await EnxRtc.joinRoom(widget.token, map1, {}, []);
+    await EnxRtc.joinRoom(widget.token, localInfo, roomInfo, []);
     print('here 3');
   }
 
