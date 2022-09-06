@@ -7,7 +7,7 @@ import 'package:enx_flutter_plugin/enx_player_widget.dart';
 import 'package:enx_flutter_plugin/enx_flutter_plugin.dart';
 
 class MyConfApp extends StatefulWidget {
-  MyConfApp({required this.token});
+  MyConfApp({this.token});
   final String token;
   @override
   Conference createState() => Conference();
@@ -232,7 +232,7 @@ class Conference extends State<MyConfApp> {
   }
 
   int remoteView = -1;
-  late List<dynamic> deviceList;
+   List<dynamic> deviceList;
 
   Widget _viewRows() {
     return Column(

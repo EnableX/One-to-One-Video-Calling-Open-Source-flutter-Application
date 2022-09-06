@@ -13,8 +13,7 @@ void main() {
     title: "Sample App",
     theme: ThemeData(
         brightness: Brightness.light,
-        primaryColor: Colors.deepPurple,
-        accentColor: Colors.pinkAccent),
+        primaryColor: Colors.deepPurple, colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.pinkAccent)),
     home: MyApp(),
     routes: <String, WidgetBuilder>{
       '/Conference': (context) => MyConfApp(
@@ -31,13 +30,13 @@ class MyApp extends StatefulWidget {
 
 class _State extends State<MyApp> {
   /*Your webservice host URL, Keet the defined host when kTry = true */
-  static final String kBaseURL = "https://demo.enablex.io/";
+  static const String kBaseURL = "https://demo.enablex.io/";
   /* To try the app with Enablex hosted service you need to set the kTry = true */
   static bool kTry = true;
   /*Use enablec portal to create your app and get these following credentials*/
 
-  static final String kAppId = "AppId";
-  static final String kAppkey = "AppKey";
+  static const String kAppId = "App-ID";
+  static const String kAppkey = "App-key";
 
   var header = (kTry)
       ? {
