@@ -1,16 +1,16 @@
 PODS:
-  - enx_flutter_plugin (0.0.1):
-    - EnxRTCiOS (= 2.1.5)
+  - EnablexWebRTC (1.0.1)
+  - enx_flutter_plugin (2.2.7):
+    - EnxRTCiOS (= 2.3.4)
     - Flutter
     - Socket.IO-Client-Swift (~> 15.1.0)
-  - EnxRTCiOS (2.1.5):
-    - GoogleWebRTC (= 1.1.31999)
+  - EnxRTCiOS (2.3.4):
+    - EnablexWebRTC (= 1.0.1)
   - Flutter (1.0.0)
   - fluttertoast (0.0.2):
     - Flutter
     - Toast
-  - GoogleWebRTC (1.1.31999)
-  - permission_handler_apple (9.0.4):
+  - "permission_handler (5.1.0+2)":
     - Flutter
   - Socket.IO-Client-Swift (15.1.0):
     - Starscream (~> 3.1)
@@ -21,12 +21,12 @@ DEPENDENCIES:
   - enx_flutter_plugin (from `.symlinks/plugins/enx_flutter_plugin/ios`)
   - Flutter (from `Flutter`)
   - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
-  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
 
 SPEC REPOS:
   trunk:
+    - EnablexWebRTC
     - EnxRTCiOS
-    - GoogleWebRTC
     - Socket.IO-Client-Swift
     - Starscream
     - Toast
@@ -38,20 +38,20 @@ EXTERNAL SOURCES:
     :path: Flutter
   fluttertoast:
     :path: ".symlinks/plugins/fluttertoast/ios"
-  permission_handler_apple:
-    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
 
 SPEC CHECKSUMS:
-  enx_flutter_plugin: 7bb31405fd6967cf21839c2cc533996408a9ffcc
-  EnxRTCiOS: bf31ce2219cee62fc63cff11d66fd341b64e401a
-  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  EnablexWebRTC: da8b1aea1af4ef81885d90515a81a871ae54292c
+  enx_flutter_plugin: b7e7edf19847dac225524283d15e9d1c8114dae2
+  EnxRTCiOS: d585e3331f52a660f8d6bc946fa488ca1d8a40a1
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   fluttertoast: 16fbe6039d06a763f3533670197d01fc73459037
-  GoogleWebRTC: b39a78c4f5cc6b0323415b9233db03a2faa7b0f0
-  permission_handler_apple: 44366e37eaf29454a1e7b1b7d736c2cceaeb17ce
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
   Socket.IO-Client-Swift: 7cb44c0ffb86e158cee32d0642d30ec5fdcf8f61
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: d4bf967a5c17b7c0fa6e8b9d858ab77de687acf0
+PODFILE CHECKSUM: b3b7664fd2efe1e261fe12a44b9c99cda00e4c33
 
 COCOAPODS: 1.11.3

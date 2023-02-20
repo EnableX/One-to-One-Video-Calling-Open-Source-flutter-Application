@@ -29,9 +29,9 @@ Future<bool> handlePermissionsForCall(BuildContext context) async {
   }
 */
 
-  if (statuses[Permission.camera].isDenied) {
+  if (statuses[Permission.camera]!.isDenied) {
     return false;
-  } else if (statuses[Permission.microphone].isDenied) {
+  } else if (statuses[Permission.microphone]!.isDenied) {
     return false;
   }
   return true;
@@ -56,7 +56,7 @@ void showCustomDialog(BuildContext context, String title, String message,
 
         ),
         actions: <Widget>[
-          FlatButton(
+          ElevatedButton(
             child:
              const Text("OK"),
             onPressed: okPressed(),
