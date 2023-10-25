@@ -1,4 +1,4 @@
-# flutter_sampleapp
+# Flutter App: A Comprehensive Guide to Starting Your Flutter Project
 
 A new Flutter project.
 
