@@ -16,6 +16,7 @@ class MyConfApp extends StatefulWidget {
 class Conference extends State<MyConfApp> {
   bool isAudioMuted = false;
   bool isVideoMuted = false;
+  bool isRoomConnected=false;
 
   @override
   void initState() {
@@ -60,7 +61,9 @@ class Conference extends State<MyConfApp> {
     print('here 4');
     EnxRtc.onRoomConnected = (Map<dynamic, dynamic> map) {
       setState(() {
+	      isRoomConnected=true;
         print('onRoomConnectedFlutter' + jsonEncode(map));
+	      
       });
       EnxRtc.publish();
     };
@@ -267,7 +270,7 @@ class Conference extends State<MyConfApp> {
         color: Colors.black,
         child: Column(
           children: [
-            Container(
+           isRoomConnected? Container(
                 alignment: Alignment.topRight,
                 height: 90,
                 width: MediaQuery.of(context).size.width,
@@ -276,7 +279,14 @@ class Conference extends State<MyConfApp> {
                   height: 100,
                   width: 100,
                   child: EnxPlayerWidget(0, local: true,width: 100, height: 100),
-                )),
+                )):Container(
+              child: Text(
+                'Connecteing',
+                style: TextStyle(color: Colors.redAccent,
+                    fontWeight: FontWeight.w500,
+                    fontSize: 20),
+              ),
+            ),
             Stack(
               children: <Widget>[
                 Card(
@@ -288,9 +298,9 @@ class Conference extends State<MyConfApp> {
                     child: Column(
                       children: <Widget>[
                         Expanded(
-                          child: Container(
+                          child: isRoomConnected?Container(
                               child: _viewRows()
-                          ),
+                          ):Container(),
                         )
                       ],
                     ),
