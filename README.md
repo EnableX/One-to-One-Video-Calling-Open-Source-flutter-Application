@@ -73,7 +73,7 @@ Note the following:
 
 * You need to use App ID and App Key to run this Service.
 * Your Flutter Client EndPoint needs to connect to this Service to create Virtual Room and Create Token to join the session.
-* Application Server is created using EnableX Server API, a Rest API Service helps in provisioning, session access and post-session reporting.  
+* Application Server is created using EnableX Server API, a Rest API Service helps in provisioning, session access and post-session reporting.
 
 To know more about Server API, go to:
 https://www.enablex.io/developer/video-api/server-api

@@ -1,8 +1,9 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sampleapp/utils.dart';
-import 'package:flutter_sampleapp/video_call.dart';
+import 'package:flutter_sample_testing/utils.dart';
+import 'package:flutter_sample_testing/video_call.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:http/http.dart' as http;
 
@@ -14,7 +15,7 @@ void main() {
     theme: ThemeData(
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple, colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.pinkAccent)),
-    home: MyApp(),
+    home: const MyApp(),
     routes: <String, WidgetBuilder>{
       '/Conference': (context) => MyConfApp(
         token: _State.token,
@@ -24,6 +25,8 @@ void main() {
 }
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
   _State createState() => _State();
 }
@@ -110,7 +113,9 @@ class _State extends State<MyApp> {
       Map<String, dynamic> room = user['room'];
 
       setState(() => roomIdController.text = room['room_id'].toString());
-      print(response.body);
+      if (kDebugMode) {
+        print(response.body);
+      }
       return response.body;
     } else {
       throw Exception('Failed to load post');
@@ -124,7 +129,9 @@ class _State extends State<MyApp> {
       "role": "participant",
       "name": nameController.text
     };
-    print(jsonEncode(value));
+    if (kDebugMode) {
+      print(jsonEncode(value));
+    }
     var response = await http.post(
         Uri.parse(
             "${kBaseURL}createToken"), // replace FQDN with Your Server API URL
@@ -132,10 +139,14 @@ class _State extends State<MyApp> {
         body: jsonEncode(value));
 
     if (response.statusCode == 200) {
-      print(response.body);
+      if (kDebugMode) {
+        print(response.body);
+      }
       Map<String, dynamic> user = jsonDecode(response.body);
       setState(() => token = user['token'].toString());
-      print(token);
+      if (kDebugMode) {
+        print(token);
+      }
       Navigator.pushNamed(context, '/Conference');
       return response.body;
     } else {
@@ -143,7 +154,7 @@ class _State extends State<MyApp> {
     }
   }
 
-  TextStyle style = TextStyle(fontFamily: 'Montserrat', fontSize: 16.0);
+  TextStyle style = const TextStyle(fontFamily: 'Montserrat', fontSize: 16.0);
 
   bool isValidated = false;
   bool permissionError = false;
@@ -154,7 +165,7 @@ class _State extends State<MyApp> {
       style: style,
       controller: nameController,
       decoration: InputDecoration(
-          contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+          contentPadding: const EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           hintText: "Username",
           border:
           OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))),
@@ -164,7 +175,7 @@ class _State extends State<MyApp> {
       controller: roomIdController,
       style: style,
       decoration: InputDecoration(
-          contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+          contentPadding: const EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           hintText: "Room Id",
           border:
           OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))),
@@ -176,13 +187,13 @@ class _State extends State<MyApp> {
       child: MaterialButton(
         // minWidth: MediaQuery.of(context).size.width / 2,
         minWidth: 100,
-        padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+        padding: const EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
         onPressed: () async{
           bool isPermissionGranted =
-              await handlePermissionsForCall(context);
-if(isPermissionGranted) {
-  createRoomvalidations();
-}
+          await handlePermissionsForCall(context);
+          if(isPermissionGranted) {
+            createRoomvalidations();
+          }
           if (isValidated) {
             createRoom();
           }
@@ -201,7 +212,7 @@ if(isPermissionGranted) {
       child: MaterialButton(
         minWidth: 100,
         // minWidth: MediaQuery.of(context).size.width / 2,
-        padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+        padding: const EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
         onPressed: () {
           joinRoomValidations();
           if (isValidated) {
@@ -216,16 +227,16 @@ if(isPermissionGranted) {
     );
     return Scaffold(
         appBar: AppBar(
-          title: Text('Sample App'),
+          title: const Text('Sample App'),
         ),
         body: Padding(
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             child: ListView(
               children: <Widget>[
                 Container(
                     alignment: Alignment.center,
-                    padding: EdgeInsets.all(10),
-                    child: Text(
+                    padding: const EdgeInsets.all(10),
+                    child: const Text(
                       'Enablex',
                       style: TextStyle(
                           color: Colors.redAccent,
@@ -234,17 +245,17 @@ if(isPermissionGranted) {
                     )),
                 Container(
                     alignment: Alignment.center,
-                    padding: EdgeInsets.all(10),
-                    child: Text(
+                    padding: const EdgeInsets.all(10),
+                    child: const Text(
                       'Welcome !',
                       style: TextStyle(fontSize: 20),
                     )),
                 Container(
-                  padding: EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(10),
                   child: usernameField,
                 ),
                 Container(
-                    padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
+                    padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
                     child: roomIdField),
                 Container(
                     alignment: Alignment.center,
@@ -255,16 +266,15 @@ if(isPermissionGranted) {
                         Expanded(
                             flex: 1,
                             child: Padding(
-                                padding: EdgeInsets.all(10),
+                                padding: const EdgeInsets.all(10),
                                 child: createRoomButon)),
                         Expanded(
                             flex: 1,
                             child: Padding(
-                                padding: EdgeInsets.all(10), child: joinButon)),
+                                padding: const EdgeInsets.all(10), child: joinButon)),
                       ],
                     ))
               ],
             )));
   }
 }
-

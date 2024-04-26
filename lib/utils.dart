@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 
@@ -49,16 +47,16 @@ void showCustomDialog(BuildContext context, String title, String message,
         shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.all(Radius.circular(10.0))),
         title: Text(
-          title
+            title
         ),
         content:  Text(
-          message
+            message
 
         ),
         actions: <Widget>[
           ElevatedButton(
             child:
-             const Text("OK"),
+            const Text("OK"),
             onPressed: okPressed(),
           ),
         ],
