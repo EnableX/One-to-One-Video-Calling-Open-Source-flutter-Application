@@ -1,6 +1,6 @@
 # 1-to-1 RTC: A Sample Flutter web/mobile App with EnableX Flutter Toolkit
 
-This is a Sample Flutter web/mobile App demonstrates the use of [EnableX platform Server APIs](https://www.enablex.io/developer/video-api/server-api) and Flutter SDK Toolkit to build 1-to-1 RTC (Real-Time Communication) Application. It allows developers to ramp up on app development by hosting on their own devices.
+This is a Sample Flutter web/mobile App demonstrates the use of [EnableX platform Server APIs](https://developer.enablex.io/docs/references/apis/video-api/index/) and Flutter SDK Toolkit to build 1-to-1 RTC (Real-Time Communication) Application. It allows developers to ramp up on app development by hosting on their own devices.
 
 This App creates a virtual Room on the fly hosted on the EnableX platform using REST calls and uses the Room credentials (i.e. Room Id) to connect to the virtual Room as a mobile client. The same Room credentials can be shared with others to join the same virtual Room to carry out an RTC session.
 
@@ -78,14 +78,14 @@ Note the following:
 * Application Server is created using EnableX Server API, a Rest API Service helps in provisioning, session access and post-session reporting.
 
 To know more about Server API, go to:
-https://www.enablex.io/developer/video-api/server-api
+https://developer.enablex.io/docs/references/apis/video-api/index/
 
 ## 3. Flutter Toolkit
 
 Flutter Sample App to use Flutter SDK Toolkit to communicate with EnableX Servers to initiate and manage Real-Time Communications.
 
-- Documentation: https://www.enablex.io/developer/video-api/client-api/flutter-toolkit/
-- Download: https://www.enablex.io/developer/video-api/client-api/flutter-toolkit/
+- Documentation: https://developer.enablex.io/docs/references/sdks/video-sdk/flutter-sdk/index/
+- Download: https://developer.enablex.io/docs/references/sdks/video-sdk/flutter-sdk/index/
 
 ## 4. Application Walk-through
 
@@ -94,12 +94,12 @@ Flutter Sample App to use Flutter SDK Toolkit to communicate with EnableX Server
 We create a Token for a Room Id to get connected to EnableX Platform to connect to the Virtual Room to carry out a RTC Session.
 
 To create Token, we make use of Server API. Refer following documentation:
-https://www.enablex.io/developer/video-api/server-api/rooms-route/#create-room
+https://developer.enablex.io/docs/references/apis/video-api/content/api-routes/#create-a-room
 
 ### 4.2 Connect to a Room, Initiate & Publish Stream
 
 We use the Token to get connected to the Virtual Room. Once connected, we initiate local stream and publish into the room. Refer following documentation for this process:
-https://www.enablex.io/developer/video-api/client-api/flutter-toolkit/room-connection/
+https://developer.enablex.io/docs/references/sdks/video-sdk/ios-sdk/room-connection/index/
 
 ### 4.3 Play Stream
 
@@ -160,5 +160,5 @@ EnableX provides hosted Demo Application Server of different use-case for you to
 
 1. Try a quick Video Call: https://try.enablex.io
 2. Try Apps on Demo Zone: https://portal.enablex.io/demo-zone/
-3. Try Meeting & Webinar:  https://www.enablex.io/ucaas/
+3. Try Meeting & Webinar:  https://developer.enablex.io/docs/references/apis/ucaas-api/index/
 
