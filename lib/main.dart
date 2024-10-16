@@ -37,7 +37,7 @@ class _State extends State<MyApp> {
   static bool kTry = true;
   /*Use enablec portal to create your app and get these following credentials*/
 
-  static const String kAppId = "App-ID";
+  static const String kAppId = "App-id";
   static const String kAppkey = "App-key";
 
   var header = (kTry)
@@ -109,12 +109,24 @@ class _State extends State<MyApp> {
         headers: header);
     if (response.statusCode == 200) {
       Map<String, dynamic> user = jsonDecode(response.body);
-      Map<String, dynamic> room = user['room'];
+      if(user['result']==403){
+        Fluttertoast.showToast(
+            msg: "${user['desc']}",
+            toastLength: Toast.LENGTH_SHORT,
+            gravity: ToastGravity.BOTTOM,
+            backgroundColor: Colors.red,
+            textColor: Colors.white,
+            fontSize: 16.0);
 
-      setState(() => roomIdController.text = room['room_id'].toString());
-      if (kDebugMode) {
-        print(response.body);
+      }else{
+        Map<String, dynamic> room = user['room'];
+        setState(() => roomIdController.text = room['room_id'].toString());
+        if (kDebugMode) {
+          print(response.body);
+        }
       }
+     print(user);
+
       return response.body;
     } else {
       throw Exception('Failed to load post');
@@ -142,11 +154,24 @@ class _State extends State<MyApp> {
         print(response.body);
       }
       Map<String, dynamic> user = jsonDecode(response.body);
-      setState(() => token = user['token'].toString());
+      if (user["result"]==0) {
+        setState(() => token = "fdbk");
+        Navigator.pushNamed(context, '/Conference');
+      } else {
+        Fluttertoast.showToast(
+            msg: " ${user['error']} or ${user['desc']} ",
+            toastLength: Toast.LENGTH_SHORT,
+            gravity: ToastGravity.BOTTOM,
+            backgroundColor: Colors.red,
+            textColor: Colors.white,
+            fontSize: 16.0);
+
+      }
+
       if (kDebugMode) {
         print(token);
       }
-      Navigator.pushNamed(context, '/Conference');
+
       return response.body;
     } else {
       throw Exception('Failed to load post');
@@ -167,7 +192,19 @@ class _State extends State<MyApp> {
           contentPadding: const EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           hintText: "Username",
           border:
-          OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))),
+          OutlineInputBorder(borderRadius: BorderRadius.circular(32.0),
+            borderSide: BorderSide(
+            color: Colors.blue, // Change the color as needed
+            width: 1.5,
+          ),),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(32.0),
+          borderSide: BorderSide(
+            color: Colors.grey, // Border color when not focused
+            width: 1.5, // Set the border width
+          ),
+        ),),
+
     );
     final roomIdField = TextField(
       obscureText: false,
@@ -177,7 +214,14 @@ class _State extends State<MyApp> {
           contentPadding: const EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
           hintText: "Room Id",
           border:
-          OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))),
+          OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(32.0),
+          borderSide: BorderSide(
+            color: Colors.grey, // Border color when not focused
+            width: 1.5, // Set the border width
+          ),
+        ),),
     );
     final createRoomButon = Material(
       elevation: 5.0,

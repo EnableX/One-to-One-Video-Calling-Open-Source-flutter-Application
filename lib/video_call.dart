@@ -88,9 +88,18 @@ class Conference extends State<MyConfApp> {
     };
     print('here 7');
     EnxRtc.onRoomError = (Map<dynamic, dynamic> map) {
+      Fluttertoast.showToast(
+          msg: "${map['msg']}",
+          toastLength: Toast.LENGTH_SHORT,
+          gravity: ToastGravity.BOTTOM,
+          backgroundColor: Colors.red,
+          textColor: Colors.white,
+          fontSize: 16.0);
       setState(() {
         print('onRoomError' + jsonEncode(map));
+
       });
+
     };
     EnxRtc.onNotifyDeviceUpdate = (String deviceName) {
       print('onNotifyDeviceUpdate' + deviceName);
