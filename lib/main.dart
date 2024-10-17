@@ -155,7 +155,7 @@ class _State extends State<MyApp> {
       }
       Map<String, dynamic> user = jsonDecode(response.body);
       if (user["result"]==0) {
-        setState(() => token = "fdbk");
+        setState(() => token = user['token'].toString());
         Navigator.pushNamed(context, '/Conference');
       } else {
         Fluttertoast.showToast(
