@@ -14,7 +14,7 @@ NOTE: Supported languages: Web and mobile
 
 #### 1.1.1 App Id and App Key
 
-- Register with EnableX [https://portal.enablex.io/cpaas/trial-sign-up/]
+- Register with EnableX [https://www.enablex.io/free-trial/]
 - Create your Application
 - Get your App ID and App Key delivered to your email
 
