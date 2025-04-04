@@ -7,25 +7,7 @@ Future<bool> handlePermissionsForCall(BuildContext context) async {
     Permission.microphone,
 
   ].request();
-/*
 
-   if (statuses[Permission.camera]!.isPermanentlyDenied) {
-    showCustomDialog(context, "Permission Required",
-        "Camera Permission Required for Video Call", () {
-          Navigator.pop(context);
-          openAppSettings();
-        });
-    return false;
-  }
-   else if (statuses[Permission.microphone]!.isPermanentlyDenied) {
-    showCustomDialog(context, "Permission Required",
-        "Microphone Permission Required for Video Call", () {
-          Navigator.pop(context);
-          openAppSettings();
-        });
-    return false;
-  }
-*/
 
   if (statuses[Permission.camera]!.isDenied) {
     return false;

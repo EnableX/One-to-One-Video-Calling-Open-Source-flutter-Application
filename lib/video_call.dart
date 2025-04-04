@@ -1,12 +1,15 @@
-
 import 'dart:convert';
+
 import 'package:enx_flutter_plugin/base.dart';
+import 'package:enx_flutter_plugin/enx_flutter_plugin.dart';
+import 'package:enx_flutter_plugin/enx_player_widget.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:enx_flutter_plugin/enx_player_widget.dart';
+
 import 'package:flutter/foundation.dart' show kIsWeb;
-import 'package:enx_flutter_plugin/enx_flutter_plugin.dart';
+
 import 'package:fluttertoast/fluttertoast.dart';
+
 
 class MyConfApp extends StatefulWidget {
   MyConfApp({super.key, required this.token});
@@ -310,19 +313,19 @@ class Conference extends State<MyConfApp> {
     double itemWidth;
     double itemHeight;
 
-      if (_remoteUsers.length <= 3) {
-        crossAxisCount = _remoteUsers.length;
-        itemWidth = screenWidth / crossAxisCount;
-        itemHeight = screenHeight / 2;
-      } else if (_remoteUsers.length <= 5) {
-        crossAxisCount = 3;
-        itemWidth = screenWidth / crossAxisCount;
-        itemHeight = screenHeight / (_remoteUsers.length / crossAxisCount);
-      } else {
-        crossAxisCount = 4; // Adjust as needed
-        itemWidth = screenWidth / crossAxisCount;
-        itemHeight = screenHeight / (_remoteUsers.length / crossAxisCount);
-      }
+    if (_remoteUsers.length <= 3) {
+      crossAxisCount = _remoteUsers.length;
+      itemWidth = screenWidth / crossAxisCount;
+      itemHeight = screenHeight / 2;
+    } else if (_remoteUsers.length <= 5) {
+      crossAxisCount = 3;
+      itemWidth = screenWidth / crossAxisCount;
+      itemHeight = screenHeight / (_remoteUsers.length / crossAxisCount);
+    } else {
+      crossAxisCount = 4; // Adjust as needed
+      itemWidth = screenWidth / crossAxisCount;
+      itemHeight = screenHeight / (_remoteUsers.length / crossAxisCount);
+    }
 
 
     return GridView.builder(
@@ -333,7 +336,7 @@ class Conference extends State<MyConfApp> {
       itemCount: _remoteUsers.length,
       itemBuilder: (BuildContext context, int index) {
         return  AspectRatio(
-         aspectRatio: 4/3,
+          aspectRatio: 4/3,
           child: Align(
             alignment: Alignment.center,
             child: EnxPlayerWidget(_remoteUsers[index], local: false,mScalingType: ScalingType.SCALE_ASPECT_BALANCED,height: 400,

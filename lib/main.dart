@@ -1,8 +1,8 @@
 import 'dart:convert';
+import 'package:enx_flutter_example/utils.dart';
+import 'package:enx_flutter_example/video_call.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sample_app/utils.dart';
-import 'package:flutter_sample_app/video_call.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:http/http.dart' as http;
 
@@ -10,7 +10,6 @@ import 'package:http/http.dart' as http;
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: "Sample App",
     theme: ThemeData(
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple, colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.pinkAccent)),
@@ -35,7 +34,7 @@ class _State extends State<MyApp> {
   static const String kBaseURL = "https://demo.enablex.io/";
   /* To try the app with Enablex hosted service you need to set the kTry = true */
   static bool kTry = true;
-  /*Use enablec portal to create your app and get these following credentials*/
+  /*Use Enablex portal to create your app and get these following credentials*/
 
   static const String kAppId = "App-id";
   static const String kAppkey = "App-key";
@@ -125,7 +124,7 @@ class _State extends State<MyApp> {
           print(response.body);
         }
       }
-     print(user);
+      print(user);
 
       return response.body;
     } else {
@@ -189,11 +188,11 @@ class _State extends State<MyApp> {
       style: style,
       controller: nameController,
       decoration: InputDecoration(
-          contentPadding: const EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-          hintText: "Username",
-          border:
-          OutlineInputBorder(borderRadius: BorderRadius.circular(32.0),
-            borderSide: BorderSide(
+        contentPadding: const EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+        hintText: "Username",
+        border:
+        OutlineInputBorder(borderRadius: BorderRadius.circular(32.0),
+          borderSide: BorderSide(
             color: Colors.blue, // Change the color as needed
             width: 1.5,
           ),),
@@ -211,10 +210,10 @@ class _State extends State<MyApp> {
       controller: roomIdController,
       style: style,
       decoration: InputDecoration(
-          contentPadding: const EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-          hintText: "Room Id",
-          border:
-          OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        contentPadding: const EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+        hintText: "Room Id",
+        border:
+        OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(32.0),
           borderSide: BorderSide(
@@ -269,9 +268,7 @@ class _State extends State<MyApp> {
       ),
     );
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('Sample App'),
-        ),
+
         body: Padding(
             padding: const EdgeInsets.all(10),
             child: ListView(
